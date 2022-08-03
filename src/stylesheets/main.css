@@ -48,7 +48,7 @@ footer{
 #demo{
     font-weight: bold;
     margin-bottom: -.5%;
-    margin-top: -1.5%;
+    margin-top: -1%;
 }
 .timeLeft{
     font-size: 13px;
@@ -58,6 +58,10 @@ h1{
 }
 .display-4{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.list-group{
+    width: 300px;
+    font-weight: bold;
 }
 @media (max-width: 720px) { 
 .frontPagePhoto{

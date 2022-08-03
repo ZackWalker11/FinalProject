@@ -1,3 +1,80 @@
 /* Your styles go here */
 @import url("bootstrap/dist/css/bootstrap.min.css");
 @import url("bootstrap-icons/font/bootstrap-icons.css");
+body{
+    background-color: lightgray;
+}
+.jumbotron{
+    background-color: lightgray;
+    text-align: center;
+    background-image: url('../../images/clouds.jpg');
+    background-size: cover;
+}
+.navbar{
+    text-align: center;
+}
+.featured{
+    text-align: center;
+}
+.fact{
+ margin-left: 5%;
+ font-weight: bold; 
+}
+.info{
+    width: 25%;
+    margin-left: 15%;
+    float:left;
+    font-size: 20px;
+    text-align: center;
+}
+.frontPagePhoto{
+    width: 45%;
+    border: black solid 2px;
+}
+.info::first-letter{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+footer{
+    clear: both;
+    padding-top: 10px;
+    text-align: center;
+    color: lightgray; 
+    margin-top: 5%;
+    height: 50px;
+    background-color: black;
+}
+#demo{
+    font-weight: bold;
+    margin-bottom: -.5%;
+    margin-top: -1.5%;
+}
+.timeLeft{
+    font-size: 13px;
+}
+h1{
+    color: red;
+}
+.display-4{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+@media (max-width: 720px) { 
+.frontPagePhoto{
+    display: none;
+}
+
+.info{
+    width: 80%;
+}
+}
+
+@media (max-width: 540px) { 
+.info{
+    display: none;
+}
+.frontPagePhoto{
+    display:block;
+    margin: auto;
+}
+}

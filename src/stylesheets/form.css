@@ -1,0 +1,17 @@
+/* Your styles go here */
+@import url("bootstrap/dist/css/bootstrap.min.css");
+@import url("bootstrap-icons/font/bootstrap-icons.css");
+
+.jumbotron{
+    background-color: lightgray;
+    text-align: center;
+    background-image: url('../../images/jumboImage.jpg');
+    background-size: cover;
+}
+.navbar{
+    text-align: center;
+}
+.formSize{
+    margin-left: 5%;
+}
+

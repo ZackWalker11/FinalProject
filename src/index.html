@@ -6,22 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index,follow" />
     <meta name="description" content="TODO: A starter project for ..." />
-
+    <script type="module" src="./javascripts/main.js"></script>
     <link rel="stylesheet" href="./stylesheets/main.css" />
   </head>
 
   <body>
-    <!-- Your HTML goes here -->
-    <h1 class="display-2 text-center my-5 py-5">
-      <span class="d-block py-5">
-        <i class="bi bi-filetype-html text-primary"></i>
-        <i class="bi bi-filetype-css text-danger"></i>
-        <i class="bi bi-filetype-js text-success"></i>
-      </span>
+    
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="nav-link" href="test.html"><span class="navbar-toggler-icon"></span></a>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="instructors.html">Meet Our Instructors</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Media Examples
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="handcam.html">Handcams</a>
+              <a class="dropdown-item" href="video.html">Video</a>
+              <a class="dropdown-item" href="ultimate.html">Ultimate Package</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>   
 
-      Welcome to CS 2350!
-    </h1>
+    <div class="jumbotron">
+      <h1 class="display-4">Skydive Ogden</h1>
+      <p class="lead">Why jump out of a perfectly good airplane?</p>
+      <p id="demo"></p>
+      <span class = "timeLeft">Days Left Until The Seasons Over!</span>
+      <p>Set your appointment up today.</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="pricing.html" role="button">Book Now</a>
+      </p>
+    </div>
 
-    <script type="module" src="./javascripts/main.js"></script>
+<div class="featured">
+  <h1 class="fact">
+    Try the worlds fastest non-motorized sport today!
+  </h1>
+  <p class ="info">
+    Join us and discover flying. Our team has a combined count of over 100,000 skydives. Our planes will take you up 2 miles above earth and provide
+    you with up to a full minute of freefall and an average of three minutes of canopy time before gently returning back to earth. On our team, we have
+    world champion skydivers to provide video recordings if you so chose. 
+  </p>
+  <img src="images/IMG_1534.JPG" alt="frontPagePhoto" class ="frontPagePhoto">
+</div>
+
+<footer>
+  &copy;2022 Zack Walker 
+
+</footer>
+
   </body>
 </html>

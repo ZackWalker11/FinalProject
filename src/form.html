@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project Starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="TODO: A starter project for ..." />
+    <script type="module" src="./javascripts/submit.js"></script>
+    <link rel="stylesheet" href="./stylesheets/form.css" />
+  </head>
+
+  <body>
+ 
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="nav-link" href="test.html"><span class="navbar-toggler-icon"></span></a>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="instructors.html">Meet Our Instructors</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Media Examples
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="handcam.html">Handcams</a>
+              <a class="dropdown-item" href="video.html">Video</a>
+              <a class="dropdown-item" href="ultimate.html">Ultimate Package</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>   
+
+    <h1>Please Enter Information</h1>
+
+    <form class ="formSize">
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <label for="firstName">First name</label>
+          <input type="text" class="form-control" id="firstName" placeholder="First name" required>
+
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="lastName">Last name</label>
+          <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
+          <div class="invalid-feedback">
+            Please provide last name
+          </div>
+        </div>
+
+      </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationServer03">City</label>
+          <input type="text" class="form-control" id="validationServer03" placeholder="City" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-md-3 mb-3">
+          <label for="validationServer04">State</label>
+          <input type="text" class="form-control" id="validationServer04" placeholder="State" required>
+          <div class="invalid-feedback">
+            Please provide a valid state.
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationServer05">Zip</label>
+          <input type="text" class="form-control" id="validationServer05" placeholder="Zip" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+          <label class="form-check-label" for="invalidCheck3">
+            Agree to terms and conditions
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit" id = "submission">Proceed to checkout</button>
+    </form>
+
+
+
+
+  </body>
+</html>

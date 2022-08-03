@@ -1,0 +1,52 @@
+/* Your styles go here */
+@import url("bootstrap/dist/css/bootstrap.min.css");
+@import url("bootstrap-icons/font/bootstrap-icons.css");
+
+.navbar{
+    text-align: center;
+}
+body{
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.mainCards{
+    width: 94%;
+    margin-left:3%;
+}
+.smallCards{
+    margin: auto;
+    width: 70%;
+
+    padding: 5px;
+    display: none;
+}
+.card{
+    border: 2px solid rgb(0, 0, 0);
+}
+footer{
+    padding-top: 10px;
+    text-align: center;
+    color: lightgray; 
+    margin-top: 5%;
+    height: 50px;
+    background-color: black;
+}
+.price{
+    margin-left: 50%;
+    font-weight: bold;
+    border-bottom: 1px black solid;
+}
+
+@media (max-width: 540px) { 
+    .mainCards{display: none;
+    }
+    .smallCards{
+        display:flex;
+        justify-content: center;
+    }
+}

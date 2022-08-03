@@ -7,7 +7,7 @@ body{
 .jumbotron{
     background-color: lightgray;
     text-align: center;
-    background-image: url('../../images/clouds.jpg');
+    background-image: url('/images/clouds.jpg');
     background-size: cover;
 }
 .navbar{

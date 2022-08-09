@@ -12,8 +12,8 @@
     text-align: center;
 }
 .displaySize{
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 20%;
 }
 .lead{
     text-align: center;
@@ -27,6 +27,7 @@ h2{
 }
 h5{
     font-size: 50px;
+    color: red;
 }
 body{
     background-color: lightgray
@@ -38,4 +39,8 @@ footer{
     margin-top: 5%;
     height: 50px;
     background-color: black;
+}
+p{
+ color:purple;
+ font-weight: bold;
 }

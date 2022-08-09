@@ -11,3 +11,20 @@
 .navbar{
     text-align: center;
 }
+footer{
+    clear: both;
+    padding-top: 10px;
+    text-align: center;
+    color: lightgray; 
+    margin-top: 5%;
+    height: 50px;
+    background-color: black;
+}
+
+body{
+    background-color: lightgray;
+}
+
+h1{
+    margin-bottom: -3%;
+}
